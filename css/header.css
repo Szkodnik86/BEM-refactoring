@@ -1,0 +1,10 @@
+.header {
+    color: darkslategray;
+}
+
+.header__subHeader {
+    font-size: 19px;
+    background-color: hwb(0 83% 17%);
+    max-width: fit-content;
+    color: crimson;
+}

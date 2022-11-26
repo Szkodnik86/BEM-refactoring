@@ -1,0 +1,31 @@
+.nav {
+    margin-top: 20px;
+    max-width: fit-content;
+}
+
+.nav__list {
+    list-style-type: none;
+}
+
+.nav__link {
+    color: red;
+    padding: none;
+    margin: none;
+}
+
+.nav__list--link:visited {
+    color: #891439e2;
+}
+
+.nav__button {
+    border: none;
+    background-color: black;
+    color: beige;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.nav__button--bright {
+    background-color: beige;
+    color: black;
+}

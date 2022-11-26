@@ -1,0 +1,28 @@
+.container {
+    overflow-x: auto;
+}
+
+.container__caption {
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: rgb(16, 61, 46);
+    background-color: #dedee8;
+    max-width: max-content;
+}
+
+.container__tableCell {
+    border: solid 2px;
+    padding: 10px;
+    text-align: center;
+}
+
+.container__tableHeader {
+    background-color: beige;
+    color: black
+}
+
+.container__table {
+    border-collapse: collapse;
+    min-width: 400px;
+}

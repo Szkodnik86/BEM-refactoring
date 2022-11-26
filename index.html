@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/nav.css" rel="stylesheet">
+    <link href="css/header.css" rel="stylesheet">
+    <link href="css/container.css" rel="stylesheet">
+    <link href="css/exercises.css" rel="stylesheet">
+    <title>Moja strona</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,600;0,700;1,300&display=swap"
+        rel="stylesheet">
+    <script defer src="js/script.js"></script>
+</head>
+
+<body class="body js-bodyBackground">
+    <header>
+        <h1 class="border">KONWENCJA BEM</h1>
+    </header>
+    <nav class="nav">
+        <button class="nav__button">
+            Włącz tryb <span class="js-nav__color">ciemny</span>
+        </button>
+        <ul class="nav__list">
+            <li><a class="nav__link" href="#topics">Zadania do wykonania</a></li>
+            <li><a class="nav__link" href="#tricks">TIPS & TRICKS</a></li>
+            <li><a class="nav__link" href="#list">Lista moich maszyn</a></li>
+            <li><a class="nav__link" href="#week">Zajęcia dodatkowe</a></li>
+        </ul>
+    </nav>
+    <main>
+        <article>
+            <h2 class="header">Strona szkoleniowa aktualnie do modułu 3, ma zawierać bardzo dużo ciężkich
+                zagdnień, i
+                ma
+                wyrobić w nas
+                pewne nawyki np. ALT+SHIFT+F, CTRL+S ect... do ogarnięcia całego kodu.
+            </h2>
+
+            <section>
+                <h2 class="header__subHeader">A więc do roboty, poniżej tabela przedstawiająca zadanie domowe modułu 3.
+                </h2>
+            </section>
+            <section id="topics">
+                <h2>Zadania do wykonania</h2>
+                <ul>
+                    <li>Ograniczyć szerokość całej strony i wyśrodkować (używamy margin)
+                    </li>
+                    <li>Dodać alternatywny box model do strony(box sizing: border box)</li>
+                    <li>Dodać table z nagłowkami wierszy i kolumn (tabela moich Motorów)</li>
+                    <li>Podzielić strone na sekcje (nav, header,main,footer,section)</li>
+                    <li>Dodać nawigacje po sekcjach, prosta nawigacja po sekcjach w sekcji nav, i usuń znaczniki listy w
+                        tej sekcji</li>
+                    <li>Dodać stylowanie do konkretnych stanów linków</li>
+                    <li>Dodać podstawowe style (margin,padding,border,border-radius,outline,shadow, ect...)</li>
+                    <li>Ustawić odstępy między wierszami, i dodać ładną czcionke z Google Fonts, wszystki używane
+                        rodzaje czcionki(pogrubiona, pochylona ect.)</li>
+                    <li>zmodyfikować interakcje na IF ELSE</li>
+                </ul>
+            </section>
+            <section id="tricks">
+                <h2>TIPS & TRICKS</h2>
+                <p>uczmy sie na błedach poprzedników :)</p>
+                <ul>
+                    <li>Użyj section na kilka sekcji na stronie(będzie ławiej linkować do sekcji)</li>
+                    <li>Uważaj aby tekst nie dotykał ekrany (padding, margin)</li>
+                    <li>Width na sztywno może zepsuć responsywność, lepiej max_width.</li>
+                    <li>Unikaj heigth, w sumie to ustawia się automatycznie, często nie potrzebne. </li>
+                    <li>Wyśrodkowanie elementu to nie to samo co wyśrodkowanie zawartości elementu</li>
+                    <li>Nie dodawać na sztywno margin by wyśrodkować (używamy auto)</li>
+                    <li>Box sizing kopiuj z lekcji (Nie kombinuj bo zepsujesz :P)</li>
+                    <li>Dodaj responsywność do tabeli (overflow)</li>
+                    <li>Projektuj prosto nowocześnie, nie przekombinuj</li>
+                    <li>Nagłowki w sekcjach o odpowiednich poziomach</li>
+                    <li>Dodaj id do sekcji (section), a nie do elementów z sekcji</li>
+                    <li>Nie używamy znacznika hr do oddzielania sekcji</li>
+                    <li>Nagłówki wierszy w tabeli, </li>
+                    <li>Czcionka we wszystkich wersjach jakie potrzebujmemy</li>
+                    <li>Stosujemy line hight prosete 1,5 a nie w px </li>
+                    <li>Za to czcionke ustawiaj w pikselach px</li>
+                    <li>Dobrze nazywać zmienne, z angielskiego i camelCase</li>
+                    <li>Html ma odzwierciedlać strukture dokumentu</li>
+                </ul>
+            </section>
+        </article>
+        <aside id="list">
+            <div class="container">
+                <table class="container__table">
+                    <caption class="container__caption">Lista moich maszyn</caption>
+                    <tr>
+                        <th class="container__tableCell container__tableHeader" scope="col"></th>
+                        <th class="container__tableCell container__tableHeader" scope="col">Model</th>
+                        <th class="container__tableCell container__tableHeader" scope="col">Pojemność</th>
+                        <th class="container__tableCell container__tableHeader" scope="col">Przeznaczenie</th>
+                    </tr>
+                    <tr>
+                        <th class="container__tableCell container__tableHeader" scope="row">Pierwszy Motor
+                        </th>
+                        <td class="container__tableCell">Suzuki DR</td>
+                        <td class="container__tableCell">350 cmm</td>
+                        <td class="container__tableCell">Nauka Jazdy pierwsze lata</td>
+                    </tr>
+                    <tr>
+                        <th class="container__tableCell container__tableHeader" scope="row">Drugi Motor
+                        </th>
+                        <td class="container__tableCell">Kawasaki KLR</td>
+                        <td class="container__tableCell">650 cmm</td>
+                        <td class="container__tableCell">Jazda na maxa w terenie</td>
+                    </tr>
+                    <tr>
+                        <th class="container__tableCell container__tableHeader" scope="row">Trzeci Motor
+                        </th>
+                        <td class="container__tableCell">Suzuki GSXF </td>
+                        <td class="container__tableCell">650 cmm</td>
+                        <td class="container__tableCell">Jazda na asfalcie :/</td>
+                    </tr>
+                    <tr>
+                        <th class="container__tableCell container__tableHeader" scope="row">Czwarty Motor
+                        </th>
+                        <td class="container__tableCell">Yamaha Majesty</td>
+                        <td class="container__tableCell">250 cmm</td>
+                        <td class="container__tableCell">Jazda typowo miejska</td>
+                    </tr>
+                    <tr>
+                        <th class="container__tableCell container__tableHeader" scope="row">Piąty Motor
+                        </th>
+                        <td class="container__tableCell">Honda Shadow</td>
+                        <td class="container__tableCell">750 cmm</td>
+                        <td class="container__tableCell">Chillout</td>
+                    </tr>
+                    <tr>
+                        <th class="container__tableCell container__tableHeader" scope="row">Szósty Motor
+                        </th>
+                        <td class="container__tableCell">I tu pytanie?</td>
+                        <td class="container__tableCell">Też jestem ciekaw</td>
+                        <td class="container__tableCell">Chyba enduro, ale....</td>
+                    </tr>
+                </table>
+            </div>
+        </aside>
+        <div id="week" class="exercises">
+            <form class="exercises__form">
+                <label for="js-exercises__choose" class="exercises__label">Wybierz Dzień </label>
+                <select id="js-exercises__choose">
+                    <option value="Język angielski">Poniedziałek</option>
+                    <option value="Dogoterapia">Wtorek</option>
+                    <option value="Logopeda">Środa</option>
+                    <option value="Sensoryka">Czwartek</option>
+                    <option value="Wolne od zajęć dodatkowych">Piątek</option>
+                    <option value="Weeekend">Sobota</option>
+                    <option value="Weeekend">Niedziela</option>
+                </select>
+                <button id="js-exercises__button">zatwierdź</button>
+            </form>
+            <p>Zajęcia na dziś: <strong class="js-exercises__ex">Nie wybrano!</strong></p>
+        </div>
+
+    </main>
+    <footer>
+        <h3>Przykładowe zdanie "lorem" dla sprawdzenia działania szerokości <i>max-width</i></h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores necessitatibus sequi ratione recusandae
+            modi id, ex quisquam cupiditate reiciendis nobis eius odit adipisci neque quibusdam distinctio, sed sit.
+            Quod, illo.</p>
+    </footer>
+
+</body>
+
+</html>

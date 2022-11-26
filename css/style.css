@@ -30,7 +30,7 @@ html {
     border-radius: 20%;
     background-color: #9a001d;
     color: white;
-    text-shadow: 2px 0px 4px gold;
+    text-shadow: 4px 0px 4px rgb(15, 15, 13);
     outline: 5px solid black;
     outline-offset: 10px;
     margin: auto;

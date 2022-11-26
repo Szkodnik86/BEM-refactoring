@@ -1,16 +1,16 @@
 {
     {
-        {
-            const welcome = () => {
-                console.log("Witam wszystkich odwiedzających DEV", "- strona dodana do GIT.");
-            };
-            welcome();
-        }
+        const welcome = () => {
+            console.log("Witam wszystkich odwiedzających DEV", "- strona dodana do GIT.");
+        };
+        welcome();
+    }
+
+    {
         const button = document.querySelector(".nav__button");
         const body = document.querySelector(".js-bodyBackground");
         const darkButton = document.querySelector(".js-nav__color");
-        const ex = document.querySelector(".day__select");
-
+        
         button.addEventListener("click", () => {
 
             body.classList.toggle("dark");

@@ -9,8 +9,10 @@
 
 .nav__link {
     color: red;
-    padding: none;
-    margin: none;
+}
+
+.nav__link--uppercase {
+    text-transform: uppercase;
 }
 
 .nav__list--link:visited {

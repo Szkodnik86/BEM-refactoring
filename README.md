@@ -1,11 +1,21 @@
 # Tomasz Szkudlarek 
 
-## first page on github
+## One of the first page on github
 
-### My test site is part of the "youcode" frontend course.
-https://szkodnik86.github.io/BEM-refactoring/
+### This is my homepage with BEM convention practis, it's part of the "YouCode" frontend course.
+[homepage with BEM](https://tymek20.github.io/BEM-refactoring/)
 
+#### Here is the rest of my works:
 
+[Currencu Converter](https://tymek20.github.io/Currency-converter/)
+#### Tech we learn to use: 
+- HTML
+- JAVASCRIPT
+- CSS
+- BEM
+- Markdown
+- Flex
 
-and of course a picture of me with my son
-![Myfoto](https://github.com/Szkodnik86/Currency-converter/blob/main/images/myphoto.jpg?raw=true)
+and a photo below of me with my son
+
+![Myfoto](https://github.com/tymek20/Currency-converter/blob/main/images/myphoto.jpg?raw=true)

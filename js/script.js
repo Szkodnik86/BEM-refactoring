@@ -1,5 +1,11 @@
 {
     {
+        {
+            const welcome = () => {
+                console.log("Witam wszystkich odwiedzających DEV", "- strona dodana do GIT.");
+            };
+            welcome();
+        }
         const button = document.querySelector(".nav__button");
         const body = document.querySelector(".js-bodyBackground");
         const darkButton = document.querySelector(".js-nav__color");
@@ -26,9 +32,6 @@
             event.preventDefault();
             excercisePickedElement.innerHTML = excercisesChooseElement.value;
         };
-
-        const response = document.querySelector(".container__response").innerText;
-        const responseTable = document.querySelector(".container__table");
     }
 
 }
